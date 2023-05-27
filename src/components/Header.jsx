@@ -1,10 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import CycloneIcon from '@mui/icons-material/Cyclone';
 
 function Header(){
     return(
         <header>
-            <h1>Keeper</h1>
+            <h1><CycloneIcon/>Keeper</h1>
         </header>
     )
 }
